@@ -1,0 +1,2 @@
+var Presentacion="Soy un estudiante entusiasmado e interesado en crecer profesionalmente y busco un puesto donde pueda practicar y mejorar mis habilidades. Tengo conocimientos en varios lenguajes de programación con los que he realizado pequeños proyectos personales. Me apasiona seguir adquiriendo conocimiento en el área, por lo que constantemente tomo cursos y me informo sobre temas científicos de impacto de la actualidad"
+var 
