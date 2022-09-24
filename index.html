@@ -23,13 +23,26 @@
         </div>
     </header>
     <main>
+        <!--Comentario-->
         <aside class="Informacion">
             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFzed1MWx_fWw/profile-displayphoto-shrink_800_800/0/1649458085695?e=1669248000&v=beta&t=AC9Gz6XMQV-SnR_rcvcWTRN9YHJeOaRgGdrvoYoDosk" alt="Foto de perfil" height="150" width="150" draggable="false">
             <h1>Andres Felipe Idarrga Zabala</h1>
             <h2>Redes sociales</h2>
             <a href="https://www.linkedin.com/in/andresidarragaz/" >linkedin</a>
         </aside>
-        <section class="Contenido-principal"></section>
+        <section class="Contenido-principal" id="Contenido"></section>
+        <form class="Contacto">
+            <h1>Contacto</h1>
+            <label for="nombreApellido" >Nombre y apellido</label>
+            <input type="text" id="nombreApellido" class="inputText" required>
+            <label for="correoElectronico">Correo Electronico</label>
+            <input type="email" id="correoElectronico" class="inputText" required placeholder="Email@dominio.com">
+            <label for="telefono">Numero de teléfono</label>
+            <input type="tel" id="telefono" class="inputText" required placeholder="+XX XXXXXXXXXX">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" class="inputText" cols="139" rows="10" ></textarea>
+            <input type="submit" value="Enviar Correo" class="subir" id="subir">
+        </form>
     </main>
     <footer></footer>
     <script src="app.js"></script>

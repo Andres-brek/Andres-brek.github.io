@@ -147,7 +147,7 @@ main{
 .Informacion{
   background: green;
   width: 23%;
-  height: 600px;
+  height: 800px;
   float: right;
   border-radius: 10px;
 }
@@ -180,13 +180,71 @@ main{
 }
 
 .Contenido-principal{
-    background: black;
+    background: white;
     width: 75%;
-    height: 600px;
+    height: 800px;
     margin: 0;
     border-radius: 10px;
 }
+.Contenido-principal h1{
+  margin: 10px 10px 10px 10px;
+}
+.Contenido-principal article{
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 0px 0px 45px 0px;
+}
 
+.Contenido-principal img{
+  float: left;
+  padding: 5px;
+}
+
+.Contenido-principal ul{
+  border: 1px solid #000;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.Contenido-principal table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 10px;
+}
+
+.Contenido-principal thead{
+  background: #555;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.Contenido-principal td, th{
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
+
+.Contacto label{
+  display: block;
+  margin: 0px 0px 10px;
+}
+
+.inputText{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 70%;
+}
+.subir{
+  background: #555;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: 500ms;
+}
+
+.subir:hover{
+  background: #909090f0;
+  transform: scale(1.07);
+}
 
 footer{
     background: pink;
