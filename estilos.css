@@ -344,7 +344,7 @@ footer{
 
 .InformaciondeContacto span{
   display: block;
-  padding: 10px;
+  padding: 5px;
 }
 
 .imagenesfooter{
@@ -370,19 +370,23 @@ footer{
     float: none;
     margin: auto;
     width: 100%;
+    height: 800px;
     }
 
   .Informacion img{
-    left: 75px;
+    left: 115px;
   }
 
   .Informacion h1{
       left: 7%;
       top: 355px;
-      font-size: 16px;
+      font-size: 20px;
       position: absolute;
   }
 
+  .Informacion article{
+    top: 21%;
+  }
 
   .Contenido-principal{
     height: 2200px;
